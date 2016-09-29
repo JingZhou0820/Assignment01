@@ -66,6 +66,22 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Asset\banner.jpg" />
+    <Content Include="Asset\BMI.jpg" />
+    <Content Include="Asset\database.png" />
+    <Content Include="Asset\emailme.png" />
+    <Content Include="Asset\game.jpg" />
+    <Content Include="Asset\girlhead.jpg" />
+    <Content Include="Asset\image1.jpeg" />
+    <Content Include="Asset\image2.jpg" />
+    <Content Include="Asset\image3.jpg" />
+    <Content Include="Asset\java.png" />
+    <Content Include="Asset\JingZhou.JPG" />
+    <Content Include="Asset\logo.png" />
+    <Content Include="Asset\photogallery.jpg" />
+    <Content Include="Asset\Project.png" />
+    <Content Include="Asset\service.png" />
+    <Content Include="Asset\web.png" />
     <Content Include="bioPage.aspx" />
     <Content Include="contact2.aspx" />
     <Content Include="packages.config" />
@@ -173,7 +189,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Asset\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

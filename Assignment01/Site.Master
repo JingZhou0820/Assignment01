@@ -20,8 +20,8 @@
 <body>
     
     <div style="width:115px; position:fixed; left:50px; top:265px " id="container">
-         <a href="http://jq.qq.com/?_wv=1027&k=asEktP" target="_blank"> <img src="Asset/girlhead.jpg" width="116" /></a>
-          <p><a href="http://jq.qq.com/?_wv=1027&k=asEktP" target="_blank"><img src="Asset/emailme.png" width="116" /></a></p>
+         <a href="contact2.aspx" target="_blank"> <img src="Asset/girlhead.jpg" width="116" /></a>
+          <p><a href="contact2.aspx" target="_blank"><img src="Asset/emailme.png" width="116" /></a></p>
           
     </div>
 
