@@ -15,7 +15,7 @@ namespace Assignment01
         }
 
         protected void sendButton_Click(object sender, EventArgs e)
-        {
+        {//when click send button, form clear 
             TextBoxName.Text = "";
             TextBoxPhoneNumber.Text = "";
             TextBoxMessage.InnerText = "";

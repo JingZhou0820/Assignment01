@@ -13,10 +13,13 @@ namespace Assignment01
       
         protected void Page_Load(object sender, EventArgs e)
         {
+            //when page load run setActive message
             setActive();
         }
         private void setActive() {
+            //debug to see the result of Page.Title
             Debug.WriteLine(Page.Title);
+            //when page tile changed, relative nav bar link add active class
             switch (Page.Title)
             {
                 case "Landing":

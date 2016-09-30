@@ -1,5 +1,8 @@
 ﻿<%@ Master  Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Assignment01.Site" %>
-
+<!--Jing Zhou-->
+<!--300883146-->
+<!--29/09/16-->
+<!--Second master page-->
 <!DOCTYPE html>
 
 <html lang="en">
@@ -21,6 +24,7 @@
 
     
     <form id="form1" runat="server">
+        <!--Header navigation bar-->
         <header role="navigation">
             <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
@@ -31,7 +35,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                     
+                            <!--logo page-->
                             <img src="Asset/logo.png"class="navbar-brand" height="250" alt="My logo picture" />
                          
                     </div>
@@ -54,12 +58,13 @@
                 <!-- /.container-fluid -->
             </nav>
         </header>
-      
+      <!--Main content-->
         <div role="main">
              
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+        <!--footer navigation bar-->
         <footer role="contentInfo">
         
         <nav class="navbar navbar-inverse navbar-fixed-bottom">

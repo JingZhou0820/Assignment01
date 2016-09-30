@@ -2,6 +2,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <!--Jing Zhou-->
+    <!--300883146-->
+    <!--projects page-->
+    <!--29.09.16-->
     <div class="container" style="margin-top:100px"> 
         <div class="row">  
             <div class="col-md-offset-4 col-md-6"> 
@@ -52,5 +56,5 @@
 
 </div>
         </div>
-    </div>
+ 
 </asp:Content>

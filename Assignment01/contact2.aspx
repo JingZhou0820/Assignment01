@@ -1,9 +1,15 @@
-﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="Contact2.aspx.cs" Inherits="Assignment01.contact2" %>
+﻿
+
+<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="Contact2.aspx.cs" Inherits="Assignment01.contact2" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container">
+    <!--300883146-->
+<!--29/09/16-->
+<!--Contact page-->
+<!--Jing Zhou-->
+    <!--Contact info section goes page's left-->
         <div class="row">
             <div class="col-md-offset-1 col-md-3"style="margin-top: 100px">
                 <h3 style="color:brown;margin:10px">Contact Information</h3>
@@ -50,8 +56,6 @@
                 
             </div>
         </div>
-
-    </div>
     <!--contact form-->
     <div class="container"> 
         <div class="row">
@@ -71,6 +75,7 @@
   <textarea class="form-control" rows="5" id="TextBoxMessage" runat="server" required placeholder="Leave your message here"></textarea>
 
          <div class="form-group">
+<!--link back to home page-->
         <a href="default.aspx"> <asp:Button runat="server" Text="Send" ID="sendButton" CssClass="btn btn-default" OnClick="sendButton_Click" PostBackUrl="default.aspx" /></a>
 </div>
   </div>

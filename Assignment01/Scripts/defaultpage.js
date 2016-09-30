@@ -1,4 +1,4 @@
-﻿//jquery of animation for service and product pictures
+﻿//intervally show different pictures of service and product 
 var i = 0;
 function animation() {
     if (i==2) {

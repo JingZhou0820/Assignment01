@@ -1,4 +1,9 @@
 ﻿<%@ Master  Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Assignment01.Site" %>
+<!--Jing Zhou-->
+<!--300883146-->
+<!--29/09/16-->
+<!--master page-->
+
 
 <!DOCTYPE html>
 
@@ -18,7 +23,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    
+    <!--suspend contact navbar-->
     <div style="width:115px; position:fixed; left:50px; top:265px " id="container">
          <a href="contact2.aspx" target="_blank"> <img src="Asset/girlhead.jpg" width="116" /></a>
           <p><a href="contact2.aspx" target="_blank"><img src="Asset/emailme.png" width="116" /></a></p>
@@ -27,6 +32,7 @@
 
     
     <form id="form1" runat="server">
+        <!--navigation header-->
         <header role="navigation">
             <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
@@ -37,7 +43,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                     
+                     <!--logo page-->
                             <img src="Asset/logo.png"class="navbar-brand" height="250" alt="My logo picture" />
                          
                     </div>
@@ -60,12 +66,13 @@
                 <!-- /.container-fluid -->
             </nav>
         </header>
-      
+      <!--main content -->
         <div role="main">
              
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+        <!--footer navigation bar-->
         <footer role="contentInfo">
         
         <nav class="navbar navbar-inverse navbar-fixed-bottom">
